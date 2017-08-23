@@ -39,12 +39,6 @@ ALLOWED_HOSTS = ['*']
 
 GEOS_LIBRARY_PATH = '.heroku/vendor/lib/libgeos_c.so'
 GDAL_LIBRARY_PATH = '.heroku/vendor/lib/libgdal.so'
-# GEOS_LIBRARY_PATH = environ.get('.heroku/vendor/lib/libgeos_c.so')
-# GDAL_LIBRARY_PATH = environ.get('.heroku/vendor/lib/libgdal.so')
-#PROJ4_LIBRARY_PATH = '.heroku/vendor/lib/libproj.so' 
-# GEOS_LIBRARY_PATH = os.getenv('.heroku/vendor/lib/libgeos_c.so')
-# GDAL_LIBRARY_PATH = os.getenv('.heroku/vendor/lib/libgdal.so')
-# Application definition11
 
 INSTALLED_APPS = [
     'webPage.apps.WebpageConfig',
@@ -101,10 +95,10 @@ WSGI_APPLICATION = 'smartBot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'd8sirccslalgj8',                      # Or path to database file if using sqlite3.
-        'USER': 'vsyrsjiimhratw',                      # Not used with sqlite3.
-        'PASSWORD': '5d2c197a3497913dbc7719cbf1f4f15e034c3dd05b46e74de3029485db523fb6',                  # Not used with sqlite3.
-        'HOST': 'ec2-23-21-197-231.compute-1.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
+        'NAME': 'dbg2qd85cduafr',                      # Or path to database file if using sqlite3.
+        'USER': 'cxvcegvalpczct',                      # Not used with sqlite3.
+        'PASSWORD': '68b25ace0064e35ac3906d33800716fc403764db460b1babd06b2267c26969b1',                  # Not used with sqlite3.
+        'HOST': 'ec2-23-21-184-113.compute-1.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
