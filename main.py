@@ -31,8 +31,8 @@ import aimlHandler
 TOKEN = "343706215:AAEaTYl_qXHsPxKMwC5rXRnrnESKEuThT2Y"
 gmaps = googlemaps.Client(key='AIzaSyCHw4CGzrZOpOleKM3KCPPMI7jJV_MDkDI')
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
-WEBAPP = "145.94.191.66:8000/accounts/login"
-TUTORIAL = "145.94.191.66:8000"
+WEBAPP = "https://amsterdamsmartbot.herokuapp.com//accounts/login"
+TUTORIAL = "https://amsterdamsmartbot.herokuapp.com/"
 choosenPosition = ''
 lastUpdate = ""
 #builtins.botActived =True
